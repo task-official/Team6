@@ -44,8 +44,7 @@
                 return value.floor()
             }
             if(decimalPoint === 'round'){
-                // return new bigDecimal(Math.round(value.getValue()))
-                return value.floor()
+                return new bigDecimal(Math.round(value.getValue()))
             }
             return value
         }
