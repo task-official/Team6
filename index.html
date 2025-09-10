@@ -24,8 +24,8 @@
             const f2 = new bigDecimal(e2);
             switch (op) {
                 case 'plus':
-                    // return decimalPointCalculate(f1.add(f2), decimalPoint)
-                    return decimalPointCalculate(f1.subtract(f2), decimalPoint)
+                    return decimalPointCalculate(f1.add(f2), decimalPoint)
+                    // return decimalPointCalculate(f1.subtract(f2), decimalPoint)
                 case 'minus':
                     return decimalPointCalculate(f1.subtract(f2), decimalPoint)
                 case 'multiply':
